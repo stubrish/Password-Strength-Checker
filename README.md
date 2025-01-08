@@ -57,6 +57,13 @@ Before you begin, ensure you have the following installed:
         python main.py
     ```
 - The application window will open, and you can start checking passwords.
+
+#### Common Password Check
+This project includes a feature to check if a password is in a list of common passwords. By default, it uses the `10-million-password-list-top-1000000.txt` file from the [SecLists](https://github.com/danielmiessler/SecLists) repository. However, you can use **any password list** you have by following these steps:   
+- Download the `10-million-password-list-top-1000000.txt` file from [here](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10-million-password-list-top-1000000.txt).  
+-  Place the file in the root directory of this project.  
+
+If the file is not found, the common password check will be skipped.
 ## Conclusion
 The Password Strength Checker helps users create stronger passwords by analyzing strength, calculating entropy, and estimating crack time. It’s a simple yet powerful tool for improving online security.
 ## Summary
