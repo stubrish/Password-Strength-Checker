@@ -54,7 +54,7 @@ Before you begin, ensure you have the following installed:
 #### Step 4: Run the Application
 - Start the Password Strength Checker:
     ``` bash
-        python main.py
+        python pass_strength.py
     ```
 - The application window will open, and you can start checking passwords.
 
